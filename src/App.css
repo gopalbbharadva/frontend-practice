@@ -42,3 +42,31 @@
 .green {
   background-color: chartreuse;
 }
+
+/* Styles for modal component */
+.modal-container {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 30rem;
+  /* max-width: 20rem; */
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 0px;
+  right: 3px;
+}
+
+/* Styles for overlay component */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 1, 0.8);
+}
