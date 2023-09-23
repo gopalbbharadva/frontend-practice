@@ -26,8 +26,9 @@
   color: black;
 }
 
+/* Styles for traffic light component. */
+
 .disabled {
-  /* background-color: lightslategrey; */
   opacity: 0.4;
 }
 
