@@ -6,6 +6,7 @@ import { Timer } from './components/Timer'
 import { TrafficLight } from './components/TrafficLight'
 import { Folder } from './components/Folder'
 import { foldersData } from './data/foldersData'
+import { ProgressBar } from './components/ProgressBar/ProgressBar'
 
 function App() {
   // const [showModal, setShowModal] = useState(false)
@@ -13,7 +14,8 @@ function App() {
   // const onCloseHandler = () => setShowModal((prev) => !prev)
   return (
     <div>
-      <Folder foldersData={foldersData} />
+      <ProgressBar />
+      {/* <Folder foldersData={foldersData} /> */}
       {/* <button onClick={() => setShowModal((prev) => !prev)}>Show modal</button>
       {showModal && (
         <Overlay>

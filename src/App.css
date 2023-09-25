@@ -71,3 +71,30 @@
   align-items: center;
   background-color: rgba(0, 0, 1, 0.8);
 }
+
+/* Styles for progress bar component */
+.progress {
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress div {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.progress span {
+  position: absolute;
+  color: white;
+}
+
+.progress-fill {
+  border: 1px solid green;
+  width: 100%;
+  color: blue;
+  background-color: blue;
+}
