@@ -98,3 +98,33 @@
   color: blue;
   background-color: blue;
 }
+
+/* Styles for Pagination component div. */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-container img {
+  width: 20rem;
+  object-fit: contain;
+  height: 10rem;
+}
+
+.pagination-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pagination-range-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
