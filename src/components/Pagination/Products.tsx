@@ -26,6 +26,8 @@ export const Products = () => {
     }
   }
 
+  console.log('currentPage')
+
   useEffect(() => {
     fetchProducts()
     console.log('effect')
