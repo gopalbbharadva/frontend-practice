@@ -9,14 +9,16 @@ import { foldersData } from './data/foldersData'
 import { ProgressBar } from './components/ProgressBar/ProgressBar'
 import { Products } from './components/Pagination/Products'
 import { StopWatch } from './components/StopWatch'
+import { AutoComplete } from './components/AutoComplete'
 
 function App() {
   // const [showModal, setShowModal] = useState(false)
 
   // const onCloseHandler = () => setShowModal((prev) => !prev)
   return (
-    <div>
-      <StopWatch />
+    <div className='flex justify-center items-center'>
+      <AutoComplete />
+      {/* <StopWatch /> */}
       {/* <Products /> */}
       {/* <ProgressBar /> */}
       {/* <Folder foldersData={foldersData} /> */}
