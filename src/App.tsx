@@ -8,6 +8,7 @@ import { Folder } from './components/Folder'
 import { foldersData } from './data/foldersData'
 import { ProgressBar } from './components/ProgressBar/ProgressBar'
 import { Products } from './components/Pagination/Products'
+import { StopWatch } from './components/StopWatch'
 
 function App() {
   // const [showModal, setShowModal] = useState(false)
@@ -15,7 +16,8 @@ function App() {
   // const onCloseHandler = () => setShowModal((prev) => !prev)
   return (
     <div>
-      <Products />
+      <StopWatch />
+      {/* <Products /> */}
       {/* <ProgressBar /> */}
       {/* <Folder foldersData={foldersData} /> */}
       {/* <button onClick={() => setShowModal((prev) => !prev)}>Show modal</button>
