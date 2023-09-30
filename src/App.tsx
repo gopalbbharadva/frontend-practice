@@ -10,14 +10,21 @@ import { ProgressBar } from './components/ProgressBar/ProgressBar'
 import { Products } from './components/Pagination/Products'
 import { StopWatch } from './components/StopWatch'
 import { AutoComplete } from './components/AutoComplete'
+import { useTimer } from './hooks/useTimer'
 
 function App() {
   // const [showModal, setShowModal] = useState(false)
-
   // const onCloseHandler = () => setShowModal((prev) => !prev)
+  // const {
+  //   timer,
+  //   isRunning,
+  //   restartTimerHandler,
+  //   startTimerHandler,
+  //   stopTimerHandler,
+  // } = useTimer()
   return (
     <div className='flex justify-center items-center'>
-      <AutoComplete />
+      {/* <AutoComplete /> */}
       {/* <StopWatch /> */}
       {/* <Products /> */}
       {/* <ProgressBar /> */}
