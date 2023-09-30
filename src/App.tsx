@@ -11,6 +11,7 @@ import { Products } from './components/Pagination/Products'
 import { StopWatch } from './components/StopWatch'
 import { AutoComplete } from './components/AutoComplete'
 import { useTimer } from './hooks/useTimer'
+import { Box } from './components/Box'
 
 function App() {
   // const [showModal, setShowModal] = useState(false)
@@ -24,6 +25,7 @@ function App() {
   // } = useTimer()
   return (
     <div className='flex justify-center items-center'>
+      <Box />
       {/* <AutoComplete /> */}
       {/* <StopWatch /> */}
       {/* <Products /> */}
